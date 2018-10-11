@@ -18,4 +18,41 @@
 @import 'font-awesome';
 .body {
 	margin-top: 60px;
+
 }
+.contents {
+	position: fixed;
+}
+.contents a {
+	color: white;
+}
+.contents a:visited {
+	color: white;
+}
+.contents a:hover {
+	background-color: rgb(100,100,255);
+}
+.nav-content {
+	background-color: rgb(100,100,255);
+	border-style: solid;
+	border-color: rgb(100,100,255);
+	border-width: 2px;
+	border-radius: 5px;
+}
+.category-name {
+	margin-top: 50px;
+}
+.container {
+	margin-top: 0%;
+	width: 90%;
+	background-color: rgb(200,200,200);
+}
+// a .nav-content {
+// 	color: white;
+// }
+// a:visited .nav-content {
+// 	color: white;
+// }
+// a:hover .nav-content {
+// 	background-color: rgb(100,100,255);
+// }
