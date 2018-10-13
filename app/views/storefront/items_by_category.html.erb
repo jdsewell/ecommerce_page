@@ -11,14 +11,14 @@
 </div>
 <div class="col-xs-3"></div>
 <div class="col-xs-9">
-<h1>Categories</h1>
+<h1 class="title">Categories</h1>
 <% @categories.each do |category| %>
 	<% if category.products.empty? == false %>
 	<div id="<%= category.name.gsub(' ','') %>"></div>
 	<br>
 	<h3 class="category-name"><%= category.name %></h3>
 	<% category.products.each do |product| %>
-		<div class="well">
+		<div class="well product">
         	<% if product.image.url.nil? == false %>
          		<p><%= image_tag product.image.url, size: 100 %></p>
         	<% end %>
