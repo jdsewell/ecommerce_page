@@ -4,17 +4,16 @@ class StorefrontController < ApplicationController
   end
 
   def items_by_category
-  	@categories = Category.all
-  	
+
+  #to get to this page: catergorical_path(params[:category_id])
+
+    @products = Product.where(category_id: params[:category_id])
+    @category = Category.find(params[:category_id])
+
   end
 
   def items_by_brand
-  	@products = Product.all
-  	@brands = []
-	@products.each do |product|
-  		if @brands.include?(product.brand) == false #keeps duplicates out
-  			@brands.push(product.brand)
-  		end
-  	end
+    @products = Product.where(brand: params[:brand])
+    @brand = params[:brand]
   end
 end

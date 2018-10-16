@@ -20,6 +20,18 @@
 body {
 	background-color: rgb(200,200,200);
 }
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+li {
+	margin-bottom: 2%;
+}
 .body {
 	margin-top: 60px;
 	margin-left: 5%;
@@ -44,6 +56,9 @@ body {
 	border-color: rgb(100,100,255);
 	border-width: 2px;
 	border-radius: 5px;
+}
+.nav-content:hover {
+	font-size: 150%;
 }
 .category-name {
 	margin-top: 50px;
