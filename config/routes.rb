@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'view_order' => 'cart#view_order'
 
   get 'checkout' => 'cart#checkout'
+
+  post 'order_complete' => 'cart#order_complete'
   
   devise_for :users
   
