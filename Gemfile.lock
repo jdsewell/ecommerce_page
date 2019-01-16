@@ -1,6 +1,10 @@
 GIT
   remote: https://github.com/stripe/stripe-ruby
+<<<<<<< HEAD
   revision: 7f55cf3a9c649ed633d7c646cd421ba7877b12b0
+=======
+  revision: af1c829a41f6c167fdf30e0eb73768675ae7847e
+>>>>>>> 3503b6109916513aef08b83e4fe8b81225f7f924
   specs:
     stripe (4.5.0)
       faraday (~> 0.13)
@@ -55,7 +59,11 @@ GEM
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+<<<<<<< HEAD
     autoprefixer-rails (9.4.5)
+=======
+    autoprefixer-rails (9.4.4)
+>>>>>>> 3503b6109916513aef08b83e4fe8b81225f7f924
       execjs
     bcrypt (3.1.12)
     better_errors (2.5.0)
@@ -121,7 +129,11 @@ GEM
       railties (>= 3.2, < 6.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+<<<<<<< HEAD
     i18n (1.5.2)
+=======
+    i18n (1.5.1)
+>>>>>>> 3503b6109916513aef08b83e4fe8b81225f7f924
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
     jbuilder (2.8.0)
@@ -156,7 +168,11 @@ GEM
     net-http-persistent (3.0.0)
       connection_pool (~> 2.2)
     nio4r (2.3.1)
+<<<<<<< HEAD
     nokogiri (1.10.1)
+=======
+    nokogiri (1.10.0)
+>>>>>>> 3503b6109916513aef08b83e4fe8b81225f7f924
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     paperclip (6.1.0)
